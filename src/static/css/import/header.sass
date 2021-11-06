@@ -1,11 +1,12 @@
 body
     width: 100%
 .header
-    background: url("/img/woman.png") no-repeat
+    background: url("/img/woman.png")
     height: auto
     width: 100%
     padding: 4.46% 14.6% 20% 14.6%
-    background-size: contain
+    background-size: cover
+    background-position: center
 .logo
     width: 100%
     display: flex
@@ -22,25 +23,6 @@ body
     flex-direction: row
     justify-content: space-between
     align-items: center
-@mixin logo__button
-    border-radius: 20px
-    color: #FFFFFF
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
-    text-transform: uppercase
-    font-family: 'Nunito', sans-serif
-    letter-spacing: 1.45px
-    margin-left: 40px
-    height: fit-content
-    padding: 9px 32px
-.logo__buttons button:nth-child(1)
-    @include logo__button
-    background-color: #FFCA4A
-.logo__buttons button:nth-child(2)
-    @include logo__button
-    background-color: #10D2B8
-.logo__buttons button:nth-child(3)
-    @include logo__button
-    background-color: #FF9376
 .content
     width: 50%
     height: auto
@@ -66,11 +48,17 @@ body
     font-size: 36px
     line-height: 55px
     padding-bottom: 8px
+    z-index: 1
 .content__menu 
     li:nth-child(2), li:nth-child(6)
         opacity: 0.4
 .content__menu 
     li:nth-child(3), li:nth-child(5)
         opacity: 0.75
-.content__menu li:nth-child(4)
-    background-image: url("/img/svg/blue-background-button.svg")
+.content__wrapper
+    position: relative
+    display: flex
+    align-items: center
+.content__wrapper > img
+    position: absolute
+
