@@ -61,51 +61,6 @@ textarea {
 }
 
 @font-face {
-  font-family: "Gilroy";
-  src: url("../fonts/Gilroy-Bold/Gilroy-Bold.eot");
-  src: local("☺"), url("../fonts/Gilroy-Bold/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold/Gilroy-Bold.ttf") format("truetype");
-  font-weight: 600;
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Gilroy";
-  src: url("../fonts/Gilroy-Regular/Gilroy-Regular.eot");
-  src: local("☺"), url("../fonts/Gilroy-Regular/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular/Gilroy-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Gilroy";
-  src: url("../fonts/Gilroy-Medium/Gilroy-Medium.eot");
-  src: local("☺"), url("../fonts/Gilroy-Medium/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium/Gilroy-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
-  font-family: "HelveticaNeue";
-  src: local("☺"), url("../fonts/HelveticaNeueCyr-Light/HelveticaNeueCyr-Light.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Light/HelveticaNeueCyr-Light.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Light/HelveticaNeueCyr-Light.ttf") format("truetype");
-  font-weight: 400;
-  font-display: swap;
-  font-style: italic;
-}
-@font-face {
-  font-family: "HelveticaNeue";
-  src: local("☺"), url("../fonts/HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-display: swap;
-  font-style: italic;
-}
-@font-face {
-  font-family: "HelveticaNeue";
-  src: local("☺"), url("../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.ttf") format("truetype");
-  font-weight: 600;
-  font-display: swap;
-  src: url("../fonts/Whitney-Light/Whitney-Light.woff") format("woff"), url("../fonts/Whitney-Light/Whitney-Light.eot") format("eot"), url("../fonts/Whitney-Light/Whitney-Light.ttf") format("ttf");
-}
-@font-face {
   font-family: "Fredoka One";
   src: local("☺"), url("../fonts/Fredoka-One/FredokaOne-Regular.ttf") format("truetype"), url("../fonts/Fredoka-One/OFL.txt") format("txt");
   font-weight: 400;
@@ -121,12 +76,33 @@ textarea {
   font-style: normal;
   src: url("../fonts/Nunito/Nunito-Black.ttf") format("truetype"), url("../fonts/Nunito/Nunito-BlackItalic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-Bold.ttf") format("truetype"), url("../fonts/Nunito/Nunito-BoldItalic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-ExtraBold.ttf") format("truetype"), url("../fonts/Nunito/Nunito-ExtraBoldItalic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-ExtraLight.ttf") format("truetype"), url("../fonts/Nunito/Nunito-ExtraLightItalic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-Italic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-Light.ttf") format("truetype"), url("../fonts/Nunito/Nunito-LightItalic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-Regular.ttf") format("truetype"), url("../fonts/Nunito/Nunito-SemiBold.ttf") format("truetype"), url("../fonts/Nunito/Nunito-SemiBoldItalic.ttf") format("truetype"), url("../fonts/Nunito/OFL.txt") format("txt");
 }
+@font-face {
+  font-family: "Poppins";
+  src: local("☺"), url("../fonts/Poppins/Poppins-Black.ttf") format("truetype"), url("../fonts/Poppins/Poppins-BlackItalic.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype"), url("../fonts/Poppins/Poppins-BoldItalic.ttf") format("truetype"), url("../fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype"), url("../fonts/Poppins/Poppins-ExtraBoldItalic.ttf") format("truetype"), url("../fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype"), url("../fonts/Poppins/Poppins-ExtraLightItalic.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Italic.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Light.ttf") format("truetype"), url("../fonts/Poppins/Poppins-LightItalic.ttf") format("truetype"), url("../fonts/Poppins/Poppins-MediumItalic.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype"), url("../fonts/Poppins/Poppins-SemiBold.ttf") format("truetype"), url("../fonts/Poppins/Poppins-SemiBoldItalic.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Thin.ttf") format("truetype"), url("../fonts/Poppins/Poppins-ThinItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+  src: url("../fonts/Poppins/Poppins-Black.ttf") format("truetype"), url("../fonts/Poppins/Poppins-BlackItalic.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype"), url("../fonts/Poppins/Poppins-BoldItalic.ttf") format("truetype"), url("../fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype"), url("../fonts/Poppins/Poppins-ExtraBoldItalic.ttf") format("truetype"), url("../fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype"), url("../fonts/Poppins/Poppins-ExtraLightItalic.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Italic.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Light.ttf") format("truetype"), url("../fonts/Poppins/Poppins-LightItalic.ttf") format("truetype"), url("../fonts/Poppins/Poppins-MediumItalic.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype"), url("../fonts/Poppins/Poppins-SemiBold.ttf") format("truetype"), url("../fonts/Poppins/Poppins-SemiBoldItalic.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Thin.ttf") format("truetype"), url("../fonts/Poppins/Poppins-ThinItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Valentine Monster";
+  src: local("☺"), url("../fonts/Valentine-Monster/Valentine-Monster.ttf") format("truetype"), url("../fonts/Valentine-Monster/Valentine-Monster.otf") format("otf");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  src: url("../fonts/Valentine-Monster/Valentine-Monster.ttf") format("truetype"), url("../fonts/Valentine-Monster/Valentine-Monster.otf") format("otf");
+}
 .header {
-  background-image: url("/img/woman.png");
-  height: auto;
   width: 100%;
-  padding: 4.46% 14.6% 0 14.6%;
+  background: url("/img/woman.png");
+  padding-top: 4.46%;
+  padding-bottom: 20%;
   background-size: cover;
+  background-position: center;
+}
+
+.container {
+  margin: 0 auto;
 }
 
 .logo {
@@ -149,6 +125,58 @@ textarea {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.content {
+  width: 50%;
+  height: auto;
+  color: #FFFFFF;
+  margin-top: 8.4%;
+}
+
+.content h1 {
+  font-style: normal;
+  font-size: 52px;
+}
+
+.content p {
+  margin-top: 25px;
+  font-family: "Valentine Monster";
+  font-size: 96px;
+}
+
+.content__menu {
+  color: #FFFFFF;
+  width: 353px;
+  height: auto;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins";
+  list-style-type: none;
+  font-size: 36px;
+  line-height: 55px;
+  padding-bottom: 8px;
+  z-index: 1;
+}
+
+.content__menu li:nth-child(2), .content__menu li:nth-child(6) {
+  opacity: 0.4;
+}
+
+.content__menu li:nth-child(3), .content__menu li:nth-child(5) {
+  opacity: 0.75;
+}
+
+.content__wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.content__wrapper > img {
+  position: absolute;
 }
 
 .logo__buttons button:nth-child(1) {
@@ -194,4 +222,65 @@ textarea {
   height: fit-content;
   padding: 9px 32px;
   background-color: #FF9376;
+}
+
+.container {
+  width: 1360px;
+}
+
+@media screen and (max-width: 1360px) {
+  .container {
+    width: 1024px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 768px;
+  }
+  .container .logo {
+    display: flexbox;
+    flex-direction: column;
+  }
+  .container .logo .logo__buttons {
+    justify-content: initial;
+  }
+  .container .logo .logo__buttons button:nth-child(1) {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 540px) {
+  .logo__buttons {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .logo__buttons button:nth-child(2) {
+    margin-left: 0;
+  }
+  .logo__buttons button:nth-child(3) {
+    margin-left: 0;
+  }
+}
+.content {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.info {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info p {
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 46px;
+  color: #41494F;
+}
+
+.info_logo {
+  font-family: "Valentine Monster";
+  font-weight: 400;
+  font-size: 46px;
+  color: #094e1a;
 }/*# sourceMappingURL=main.css.map */

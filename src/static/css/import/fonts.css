@@ -1,62 +1,46 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "Gilroy";
-  src: url("../fonts/Gilroy-Bold/Gilroy-Bold.eot");
-  src: local("☺"), url("../fonts/Gilroy-Bold/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold/Gilroy-Bold.ttf") format("truetype");
-  font-weight: 600;
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Gilroy";
-  src: url("../fonts/Gilroy-Regular/Gilroy-Regular.eot");
-  src: local("☺"), url("../fonts/Gilroy-Regular/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular/Gilroy-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Gilroy";
-  src: url("../fonts/Gilroy-Medium/Gilroy-Medium.eot");
-  src: local("☺"), url("../fonts/Gilroy-Medium/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium/Gilroy-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
-  font-family: "HelveticaNeue";
-  src: local("☺"), url("../fonts/HelveticaNeueCyr-Light/HelveticaNeueCyr-Light.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Light/HelveticaNeueCyr-Light.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Light/HelveticaNeueCyr-Light.ttf") format("truetype");
-  font-weight: 400;
-  font-display: swap;
-  font-style: italic;
-}
-@font-face {
-  font-family: "HelveticaNeue";
-  src: local("☺"), url("../fonts/HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-display: swap;
-  font-style: italic;
-}
-@font-face {
-  font-family: "HelveticaNeue";
-  src: local("☺"), url("../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.ttf") format("truetype");
-  font-weight: 600;
-  font-display: swap;
-  src: url("../fonts/Whitney-Light/Whitney-Light.woff") format("woff"), url("../fonts/Whitney-Light/Whitney-Light.eot") format("eot"), url("../fonts/Whitney-Light/Whitney-Light.ttf") format("ttf");
-}
-@font-face {
   font-family: "Fredoka One";
   src: local("☺"), url("../fonts/Fredoka-One/FredokaOne-Regular.ttf") format("truetype"), url("../fonts/Fredoka-One/OFL.txt") format("txt");
-  font-weight: 400;
   font-display: swap;
   font-style: normal;
   src: url("../fonts/Fredoka-One/FredokaOne-Regular.ttf") format("truetype"), url("../fonts/Fredoka-One/OFL.txt") format("txt");
 }
+
 @font-face {
   font-family: "Nunito";
-  src: local("☺"), url("../fonts/Nunito/Nunito-Black.ttf") format("truetype"), url("../fonts/Nunito/Nunito-BlackItalic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-Bold.ttf") format("truetype"), url("../fonts/Nunito/Nunito-BoldItalic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-ExtraBold.ttf") format("truetype"), url("../fonts/Nunito/Nunito-ExtraBoldItalic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-ExtraLight.ttf") format("truetype"), url("../fonts/Nunito/Nunito-ExtraLightItalic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-Italic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-Light.ttf") format("truetype"), url("../fonts/Nunito/Nunito-LightItalic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-Regular.ttf") format("truetype"), url("../fonts/Nunito/Nunito-SemiBold.ttf") format("truetype"), url("../fonts/Nunito/Nunito-SemiBoldItalic.ttf") format("truetype"), url("../fonts/Nunito/OFL.txt") format("txt");
-  font-weight: 800;
+  src: local("☺"), url("../fonts/Nunito/Nunito-SemiBold.ttf") format("truetype"), url("../fonts/Nunito/Nunito-SemiBoldItalic.ttf") format("truetype"), url("../fonts/Nunito/OFL.txt") format("txt");
   font-display: swap;
   font-style: normal;
-  src: url("../fonts/Nunito/Nunito-Black.ttf") format("truetype"), url("../fonts/Nunito/Nunito-BlackItalic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-Bold.ttf") format("truetype"), url("../fonts/Nunito/Nunito-BoldItalic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-ExtraBold.ttf") format("truetype"), url("../fonts/Nunito/Nunito-ExtraBoldItalic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-ExtraLight.ttf") format("truetype"), url("../fonts/Nunito/Nunito-ExtraLightItalic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-Italic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-Light.ttf") format("truetype"), url("../fonts/Nunito/Nunito-LightItalic.ttf") format("truetype"), url("../fonts/Nunito/Nunito-Regular.ttf") format("truetype"), url("../fonts/Nunito/Nunito-SemiBold.ttf") format("truetype"), url("../fonts/Nunito/Nunito-SemiBoldItalic.ttf") format("truetype"), url("../fonts/Nunito/OFL.txt") format("txt");
-}/*# sourceMappingURL=fonts.css.map */
+  src: url("../fonts/Nunito/Nunito-SemiBold.ttf") format("truetype"), url("../fonts/Nunito/Nunito-SemiBoldItalic.ttf") format("truetype"), url("../fonts/Nunito/OFL.txt") format("txt");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("☺"), url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  src: url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ValentineMonsterMain";
+  src: url("../fonts/Valentine-Monster/Valentine-Monster.ttf") format("truetype"), url("../fonts/Valentine-Monster/Valentine-Monster.otf") format("otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/*# sourceMappingURL=fonts.css.map */
