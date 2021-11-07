@@ -92,16 +92,17 @@ textarea {
   font-style: normal;
   src: url("../fonts/Valentine-Monster/Valentine-Monster.ttf") format("truetype"), url("../fonts/Valentine-Monster/Valentine-Monster.otf") format("otf");
 }
-body {
+.header {
   width: 100%;
+  background: url("/img/woman.png");
+  padding-top: 4.46%;
+  padding-bottom: 20%;
+  background-size: cover;
+  background-position: center;
 }
 
-.header {
-  background: url("/img/woman.png");
-  height: auto;
-  width: 100%;
-  padding: 4.46% 14.6% 20% 14.6%;
-  background-size: cover;
+.container {
+  margin: 0 auto;
 }
 
 .logo {
@@ -157,6 +158,7 @@ body {
   font-size: 36px;
   line-height: 55px;
   padding-bottom: 8px;
+  z-index: 1;
 }
 
 .content__menu li:nth-child(2), .content__menu li:nth-child(6) {
@@ -167,8 +169,14 @@ body {
   opacity: 0.75;
 }
 
-.content__menu li:nth-child(4) {
-  background-image: url("/img/svg/blue-background-button.svg");
+.content__wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.content__wrapper > img {
+  position: absolute;
 }
 
 .logo__buttons button:nth-child(1) {
@@ -214,4 +222,65 @@ body {
   height: fit-content;
   padding: 9px 32px;
   background-color: #FF9376;
+}
+
+.container {
+  width: 1360px;
+}
+
+@media screen and (max-width: 1360px) {
+  .container {
+    width: 1024px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 768px;
+  }
+  .container .logo {
+    display: flexbox;
+    flex-direction: column;
+  }
+  .container .logo .logo__buttons {
+    justify-content: initial;
+  }
+  .container .logo .logo__buttons button:nth-child(1) {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 540px) {
+  .logo__buttons {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .logo__buttons button:nth-child(2) {
+    margin-left: 0;
+  }
+  .logo__buttons button:nth-child(3) {
+    margin-left: 0;
+  }
+}
+.content {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.info {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info p {
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 46px;
+  color: #41494F;
+}
+
+.info_logo {
+  font-family: "Valentine Monster";
+  font-weight: 400;
+  font-size: 46px;
+  color: #094e1a;
 }/*# sourceMappingURL=main.css.map */

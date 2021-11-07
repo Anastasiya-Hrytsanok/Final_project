@@ -10,6 +10,7 @@
   height: -moz-fit-content;
   height: fit-content;
   padding: 9px 32px;
+  shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: #FFCA4A;
 }
 
@@ -25,6 +26,7 @@
   height: -moz-fit-content;
   height: fit-content;
   padding: 9px 32px;
+  shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: #10D2B8;
 }
 
@@ -40,5 +42,6 @@
   height: -moz-fit-content;
   height: fit-content;
   padding: 9px 32px;
+  shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: #FF9376;
 }/*# sourceMappingURL=mixin.css.map */
