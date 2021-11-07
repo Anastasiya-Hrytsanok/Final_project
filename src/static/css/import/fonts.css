@@ -6,6 +6,7 @@
   font-style: normal;
   src: url("../fonts/Fredoka-One/FredokaOne-Regular.ttf") format("truetype"), url("../fonts/Fredoka-One/OFL.txt") format("txt");
 }
+
 @font-face {
   font-family: "Nunito";
   src: local("☺"), url("../fonts/Nunito/Nunito-SemiBold.ttf") format("truetype"), url("../fonts/Nunito/Nunito-SemiBoldItalic.ttf") format("truetype"), url("../fonts/Nunito/OFL.txt") format("txt");
@@ -13,6 +14,7 @@
   font-style: normal;
   src: url("../fonts/Nunito/Nunito-SemiBold.ttf") format("truetype"), url("../fonts/Nunito/Nunito-SemiBoldItalic.ttf") format("truetype"), url("../fonts/Nunito/OFL.txt") format("txt");
 }
+
 @font-face {
   font-family: "Poppins";
   src: local("☺"), url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
@@ -20,22 +22,25 @@
   font-style: normal;
   src: url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
 }
+
 @font-face {
-  font-family: "Valentine Monster";
-  src: local("☺"), url("../fonts/Valentine-Monster/Valentine-Monster.ttf") format("truetype"), url("../fonts/Valentine-Monster/Valentine-Monster.otf") format("otf");
-  font-display: swap;
-  font-style: normal;
+  font-family: "ValentineMonsterMain";
   src: url("../fonts/Valentine-Monster/Valentine-Monster.ttf") format("truetype"), url("../fonts/Valentine-Monster/Valentine-Monster.otf") format("otf");
+  font-style: normal;
+  font-weight: normal;
 }
+
 @font-face {
   font-family: "PoppinsBold";
   src: url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
+
 @font-face {
   font-family: "PoppinsMedium";
   src: url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
-}/*# sourceMappingURL=fonts.css.map */
+}
+/*# sourceMappingURL=fonts.css.map */

@@ -29,15 +29,10 @@
 }
 
 @font-face {
-  font-family: "Valentine Monster";
-  src: local("☺"),
-    url("../fonts/Valentine-Monster/Valentine-Monster.ttf") format("truetype"),
-    url("../fonts/Valentine-Monster/Valentine-Monster.otf") format("otf");
-  font-display: swap;
+  font-family: "ValentineMonsterMain";
+  src: url("../fonts/Valentine-Monster/Valentine-Monster.ttf") format("truetype"), url("../fonts/Valentine-Monster/Valentine-Monster.otf") format("otf");
   font-style: normal;
-  src: url("../fonts/Valentine-Monster/Valentine-Monster.ttf")
-      format("truetype"),
-    url("../fonts/Valentine-Monster/Valentine-Monster.otf") format("otf");
+  font-weight: normal;
 }
 
 @font-face {
